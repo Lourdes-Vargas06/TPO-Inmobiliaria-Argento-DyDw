@@ -35,3 +35,44 @@ nav a {
 nav a:hover {
     color: #bbbbbb
 }
+
+/*footer*/
+
+footer {
+    background-color: #464646;
+    padding: 20px;
+    color: white;
+    font-family: Arial, sans-serif;
+    height: 260px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer-logo img {
+    height: 90px;
+    filter: grayscale(100%);
+    margin-bottom: 10px;
+}
+
+.footer-info p, 
+.footer-social p, 
+.footer-legal p {
+    margin: 5px 0;
+}
+
+.footer-social a {
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.footer-legal {
+    margin-top: 20px;
+    align-items: flex-end;
+    right: 20px;
+
+}
