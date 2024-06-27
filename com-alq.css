@@ -13,7 +13,7 @@ body {
     max-width: 500px;
 }
 
-.apartamento-container, .casas-container, .local-container{
+.apartamento-container, .casas-container {
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
