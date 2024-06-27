@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Contacto.css">
+    <link rel="stylesheet" href="ventass.css">
+    <title>Contactenos</title>
+</head>
+<body>
+    <header>
+        <a href="índice.html" class="logo">
+            <img src="Imagenes/ARGENTO.png" id="imagen-argento" alt="Logo Imagen"/><img src="Imagenes/slogan.png" alt="Slogan de inmobiliaria" height="100"/>
+        </a>
+        <nav>
+            <a href="alquileres.html" class="nav-link">ALQUILERES</a>
+            <a href="ventas.html" class="nav-link">VENTAS</a>
+            <a href="nosotros.html" class="nav-link">NOSOTROS</a>
+        </nav>
+      </header>
+    <div class="container">
+        <div class="left-section">
+            <img src="Imagenes/fondo-contactanos.jpg" alt="Imagen-fondo" class="fondo-imagen">
+            <h3>Complete el formulario y nosotros nos comunicamos con vos</h3>
+        </div>
+        <div class="right-section">
+            <h1 class="form-title">Contactenos</h1>
+            <div class="form-field">
+                <label for="nombre">Nombre completo</label>
+                <input type="text" id="nombreCompleto" name="nombreCompleto" placeholder="Ingrese su nombre completo">
+            </div>
+            <div class="form-field">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Ingrese su email">
+            </div>
+            <div class="form-field">
+                <label for="telefono">Teléfono</label>
+                <input type="tel" id="telefono" name="telefono" placeholder="Ingrese su teléfono">
+            </div>
+            <div class="form-field">
+                <label for="comprarAlquilar">¿Quieres Comprar o Alquilar?</label>
+                <select id="comprarAlquilar" name="comprarAlquilar">
+                    <option value="comprar">Comprar</option>
+                    <option value="alquilar">Alquilar</option>
+                </select>
+            </div>
+            <div class="form-field">
+                <label for="casaDepartamentoEmprendimiento">¿Casa, Departamento o Emprendimiento?</label>
+                <select id="casaDepartamentoEmprendimiento" name="casaDepartamentoEmprendimiento">
+                    <option value="casa">Casa</option>
+                    <option value="Departamento">Departamento</option>
+                    <option value="Emprendimiento">Emprendimiento</option>
+                </select>
+            </div>
+            <div class="form-field">
+                <label for="barrio">¿En qué zona quieres de Almirante Brown quieres comprar o alquilar? (En caso <b>Emprendimiento</b> especifique zona de Flores)</label>
+                <input type="text" id="zona" name="zona" placeholder="Ingrese zona">
+            </div>
+            <div class="form-submit">
+                <button type="submit">Enviar</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 5;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    max-width: 500px;
+}
+
+.apartamento-container, .casas-container, .local-container{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagengGaleria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagenPrincipal img {
+    width: 400px;
+    max-height: 400px;
+    border-radius: 10px;
+}
+
+.Galeria {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.thumbnail:hover {
+    transform: scale(1.1);
+}
+
+.thumbnail {
+    width: 90px;
+    height: auto;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.detalles {
+    margin-top: 20px;
+    text-align: center;
+}
+
+h2 {
+    margin: 0;
+    color: #333;
+}
+
+p {
+    margin: 10px 0;
+    color: #666;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+    color: #555;
+}
+
+#casaslink-1 {
+    color: black;
+}

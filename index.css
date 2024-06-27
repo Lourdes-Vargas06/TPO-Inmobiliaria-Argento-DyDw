@@ -1,0 +1,235 @@
+body {
+  background-color: #ffff; 
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #004aad;
+  padding: 10px 0;
+}
+.logo img {
+  height: 100px; 
+  margin-left: 10px;
+}
+
+.contacto-info {
+  display: flex;
+  align-items: center;
+  margin-left: auto; 
+  margin-bottom: 60px;
+  color: white;
+}
+
+.contacto-info p {
+  margin: 0 10px;
+}
+
+
+.nav {
+  list-style: none;
+  display: flex;
+  text-decoration: none;
+}
+
+.nav li {
+  margin-right: 20px;
+  text-decoration: none; 
+  position: relative; 
+}
+
+.nav li:hover a{
+  color: #bbbbbb; 
+}
+
+.nav li:not(:last-child)::after{
+  content: "|";
+  margin-left: 10px;
+  color: black;
+}
+
+.nav a{
+  margin-right: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #000;
+  margin-top: 10px;
+}
+
+/* Estilos para el footer */
+footer {
+  background-color: #464646;
+  padding: 20px 0;
+  color: white;
+}
+
+/* Estilos para el logo */
+.logo-footer img {
+  height: 80px;
+  filter: grayscale(100%);
+  margin-left: 10px;
+}
+
+.footer-text{
+  margin-left: 10px;
+}
+
+.social-icons-footer{
+  margin-left: 10px;
+}
+
+.social-icons-footer a{
+  color: black; 
+}
+
+.legal-info-footer{
+  position: relative;
+  margin-left: 90%;
+}
+
+.contact-section {
+  background-color: #f0f0eb;
+  color: black;
+  padding: 20px;
+  text-align: center;
+}
+
+.contact-section h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.contact-section p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.contact-section form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-section label {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.contact-section input,
+.contact-section textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-section button {
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inmueble-1, .inmueble-2, .inmueble-3 {
+  background-color: #ebeef1;
+  border-radius: 20px;
+  margin: 0.50%;
+  padding: 0.50%;
+  width: 26.8%;
+  height: 70%;
+  flex-direction: column;
+  display: flex;
+  align-items: center
+}
+
+.propiedades {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  align-items: stretch;
+  color: rgb(0, 0, 0);
+}
+
+h3 {
+  margin-top: 0;
+  font-size: 1em;
+}
+
+.boton-in {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #c4bfbf;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.boton-in:hover {
+  background-color: #0056b3;
+}
+
+
+.razon-1, .razon-2, .razon-3 {
+  background-color: #ffffff;
+  border-radius: 20px;
+  margin: 0.50%;
+  padding: 0.50%;
+  width: 26.8%;
+  height: 70%;
+  flex-direction: column;
+  display: flex;
+  align-items: center
+}
+
+.eleccion {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  align-items: stretch;
+  color: rgb(0, 0, 0);
+}
+
+.local-1, .local-2, .local-3 {
+  background-color: #ebeef1;
+  border-radius: 20px;
+  margin: 0.50%;
+  padding: 0.50%;
+  width: 26.8%;
+  height: 70%;
+  flex-direction: column;
+  display: flex;
+  align-items: center
+}
+
+.negocios {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  align-items: stretch;
+  color: rgb(0, 0, 0);
+}
